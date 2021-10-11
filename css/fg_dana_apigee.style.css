@@ -1,0 +1,847 @@
+/**
+ * CSS variables.
+ *
+ * The apigee_kickstart theme uses CSS Variables for some rules, which are
+ * also available to customize in the UI via Customizer. The color fields are
+ * defined in `THEME.customizer.yml`, and their default values (which should
+ * mirror the values you set below) are defined in
+ * `config/install/apigee_kickstart_customizer.theme.THEME.yml`.
+ *
+ * By default, the variables point to other CSS variable values, which originate
+ * from the Bootstrap build. See the partials linked in the "CSS Variables"
+ * section in apigee_kickstart/src/sass/apigee-kickstart.style.scss for more
+ * details.
+ *
+ * :root {
+ *   --ak-header-color-bg: var(--dark);
+ *   --ak-header-color: var(--white);
+ *   --ak-footer-color-bg: var(--dark);
+ *   --ak-footer-color: var(--white);
+ *   --ak-accent-color: var(--blue);
+ *   --ak-accent-color-light: var(--white);
+ *   --ak-accent-color-dark: var(--blue-dark);
+ * }
+ */
+
+/**
+ * Add custom CSS here.
+ */
+
+
+/* common start */
+
+* {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+h1, .h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #108EE9;
+}
+
+/* common end */
+
+
+
+/* header start */
+
+.navbar {
+    background: #108ee9;
+}
+
+.navbar .container {
+    margin-left:  0px !important;
+}
+
+.navbar .form-search{
+    border-radius: 20px;
+    padding: 0.175rem 1.375rem !important;
+}
+
+.navbar .search-block-form {
+    margin-right: 1.5rem;
+}
+
+.navbar-brand img {
+    max-height: 33px;
+}
+
+.navbar-collapse {
+    width: 102px;
+    height: 33px;
+    font-size: 16px;
+}
+
+.hero__content {
+    position: absolute;
+    left: 120px;
+    line-height: 30px;
+    color: #FFFFFF;
+    top: 5%;
+}
+
+.hero__wrapper .text-center {
+    text-align:  left !important;
+}
+
+.hero {
+    height: 300px;
+}
+
+.hero__media img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero__media img , .hero {
+    height: 210px;
+}
+
+.blockquote--default, .cta--default {
+    display: none;
+}
+
+/* header end */
+
+
+
+/* footer start */
+
+footer .justify-content-md-end {
+    justify-content: space-between !important;
+}
+
+.block--copyright {
+    margin-top: 0.5rem !important;
+}
+
+.page__content-below {
+    background: #2196f3;
+    padding-left: 2.78%;
+    padding-top: 2.3%;
+}
+
+.block > h2 {
+    margin: 0px !important;
+    left: 89.58%;
+    right: 6.04%;
+    top: 38.07%;
+    bottom: 49.24%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.block--fg-dana-apigee-menu-footer {
+    margin-left : -8%;
+    padding-top :  3%;
+    padding-left: 3%;
+}
+
+.block--copyrightmenu {
+    margin-left : -9%;
+    padding-left: 3%;
+}
+
+.block--copyrightmenu ul li a {
+    font-size: 14px;
+}
+
+.block--copyright {
+    margin-right : -8%;
+    padding-right: 3%;
+}
+
+.block--sociallinks {
+    margin-right : -8%;
+}
+
+footer {
+    /*width: 1349px;*/
+    /*height: 197px;*/
+    left: 0px;
+    bottom: 0px;
+    background-color: #2196f3 !important;
+    border-bottom: 1px solid white !important;
+}
+
+.footer {
+    padding-top : 0px !important;
+    padding-bottom : 0px !important;
+}
+
+.copyright {
+    background: none;
+    background-color: #2196f3;
+    background-size: 100vw 100vh;
+    padding-top : 0px !important;
+    padding-bottom : 0px !important;
+    border-top:  1px solid;
+    opacity : 0.4;
+}
+
+.social-links li {
+    font-size: 10px !important;
+}
+
+.social-links .svg-inline--fa.fa-w-18 {
+    width: 20px !important;
+}
+
+.social-links .svg-inline--fa.fa-w-16 {
+    width: 18px !important;
+}
+
+.social-links .svg-inline--fa.fa-w-14 {
+    width: 16px !important;
+}
+
+.basic__body p {
+    font-size: 14px;
+}
+
+/* footer end */
+
+
+
+/* featured section start */
+.path-frontpage .buttons__item {
+    width: 145px;
+    height: 38px;
+    left: 647px;
+    top: 1205px;
+
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.btn-outline-primary {
+    background: #2196f3;
+    border-radius: 20px;
+    color: white;
+}
+
+.path-frontpage .callout-group--default {
+    /*width: 1349px;*/
+    height: auto;
+    left: 0px;
+    top: 1313px;
+    background: #E5F3FD;
+}
+
+.path-frontpage .callout__field-icon .fontawesome-icon {
+    align-items: none;
+    background: none;
+    border-radius: 100%;
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    width: 160px;
+    width: 60px;
+    height: 60px;
+    left: 290px;
+    top: 1383px;
+}
+
+.path-frontpage .card-deck div .card--default {
+    width: 380px;
+    height: 460px;
+    left: 120px;
+    top: 705px;
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+/* featured section end */
+
+
+
+/* text image section start */
+
+.path-frontpage .text-image__field-text {
+    width: 500px;
+    height: 275px;
+    left: 140px;
+    top: 1925px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #525252;
+}
+
+.path-frontpage .text-image--default {
+    background-color: white !important;
+    height: auto;
+}
+
+.path-frontpage .paragraph.text-image.text-image--default.bg-dark.text-light img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left : 15px;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.path-frontpage .text-image__image * {
+  background: #21aaf0;
+}
+
+/* text image section end */
+
+
+
+/* get started page start */
+
+/*.page__content {
+    display: inline-flex;
+    padding: 5%;
+}*/
+
+.page-layout-sidebar-bottom__bottom .py-5 {
+    padding-bottom:  0px !important;
+}
+
+.page-layout-sidebar-bottom__bottom .container .pt-7 {
+    padding-top:  0px !important;
+}
+
+.sections section {
+    /*width: 900px;*/
+    height: auto;
+    background: #E5F3FD;
+    border-radius: 15px;
+    padding: 2%;
+    margin-top: 3%;
+    line-height: 25px;
+}
+
+.sections section h2 {
+    height: 30px;
+    left: 460px;
+    top: 2375px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #108EE9;
+}
+
+
+.sections section h3 {
+    /*width: 860px;*/
+    height: 25px;
+    left: 460px;
+    top: 525px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #313131;
+}
+
+.sections section ul {
+    /*width: 820px;*/
+    left: 460px;
+    top: 645px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 45px;
+    color: #525252;
+}
+
+.block--gettingstartedsidebar {
+    width: 200px;
+    height: 341px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 31px;
+    color: #108EE9;
+    /*margin-left : -5%;*/
+}
+
+/*.block--gettingstartedsidebar {
+    position: fixed;
+}*/
+
+.block--gettingstartedsidebar div ul li:last-child {
+    border-bottom: none;
+}
+
+.block--gettingstartedsidebar div ul li {
+    width: 100%;
+    left: 150px;
+    top: 487px;
+    border-bottom: 1px solid #D7DDDE;
+    line-height: 50px;
+}
+
+.block--gettingstartedcontent {
+    width: 80%;
+}
+
+pre {
+    background: #D0E7F8;
+    border-radius: 10px;
+}
+
+/* get started page end */
+
+
+
+/* Forum page start */
+
+.forum__topics table th {
+    color: #108ee8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forum__topics table th a {
+    color: #108ee8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forum__topics table {
+    text-align: center; 
+}
+
+.forum__topics table thead tr th:first-child {
+    text-align: left !important;
+}
+
+.forum__name {
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #108EE9;
+    text-align: left !important;
+}
+
+.forum__description p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #525252;
+    text-align: left !important;
+}
+
+
+.action-links {
+    display: none;
+}
+
+.page__content h1 span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #108EE9;
+}
+
+.forum__topic .forum__title {
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    line-height: 34px;
+    color: #108EE9;
+    text-align: left !important;
+}
+
+.forum__body p {
+    line-height: 25px;
+    color: #525252;
+}
+
+/* Forum page end */
+
+
+
+/* Blog page start */
+
+
+.path--view-blog-page-landing .article__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #108EE9;
+}
+
+.path--view-blog-page-landing .article__body {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #525252;
+}
+
+
+.path--view-blog-page-landing .article__meta, .article__meta span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #525252;
+}
+
+.path--view-blog-page-landing .sidebar-first div h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #313131;
+    border-bottom: 1px solid #D7DDDE;
+    padding-bottom:  5%;
+}
+
+
+.path--view-blog-page-landing .sidebar-first div .view {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #108EE9;
+    margin-top:  10%;
+}
+
+.path--view-blog-page-landing .sidebar-first .views-element-container {
+    background: #E5F3FD;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+/*.path--view-blog-page-landing .view-content .views-row {
+    margin-bottom: 10%;
+}*/
+
+.view-content .views-row {
+  margin-bottom: auto !important;
+}
+
+.path--view-blog-page-landing .view-content .views-row:last-child {
+    margin-bottom: 0%;
+}
+
+.article__tags {
+  display : none;
+}
+
+.article--teaser .py-3 {
+  padding-top : 0 !important;
+}
+
+
+/* Blog page end */
+
+
+
+/* FAQ page start */
+
+.faq--teaser {
+    background: #E5F3FD;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.details.details {
+    border-top:  none;
+}
+
+.item-list ul li {
+    padding: 1%;
+}
+
+.view-faq .item-list > ul > li:last-child {
+  border-bottom: none;
+}
+
+/* FAQ page end */
+
+
+
+/* API Doc page start  */
+
+#edit-actions, #edit-actions--2, #edit-actions--3 {
+    margin-top: 1%;
+}
+
+.apidoc .image__field-media-image .img-fluid {
+  max-width : 50%;
+}
+
+.view-apigee-api-catalog .views-view-grid {
+  text-align : center;
+}
+
+.api-card .card-body {
+  padding : 0.5rem;
+}
+
+.view-apigee-api-catalog .views-exposed-form fieldset legend {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #313131;
+  border-bottom: 1px solid #D7DDDE !important;
+  padding-bottom: 10% !important;
+}
+
+.view-apigee-api-catalog .views-exposed-form {
+  background: #E5F3FD;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  border-radius: 15px;
+}
+
+.view-apigee-api-catalog .views-exposed-form fieldset .fieldset-wrapper {
+    padding-top: 10% !important;
+    color: red;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #108EE9;
+    margin-top: 10%;
+}
+
+.block--signaturegeneratorblock {
+    padding: 0 8%;
+}
+
+.block--signaturegeneratorblock form summary {
+    padding: 0 8%;
+    font-size: 24px;
+}
+
+.block--signaturevalidatorblock {
+    margin-top: 3%;
+}
+
+.block--signaturevalidatorblock form summary {
+    font-size: 24px;
+}
+
+/* API Doc page end  */
+
+
+
+/* User pages start  */
+
+.path--user-login {
+    background-image: url("http://10.4.21.173/dev-portal/web/sites/default/files/2021-09/DANA%20Login_0.png");
+}
+
+.path--user-login .user-login-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  padding: 2%;
+}
+
+.path--user-login main {
+  margin-left: 45%;
+}
+
+.path--user-login .page__tasks {
+  margin-left: 54%;
+}
+
+.path--user-pass {
+  background-image: url("http://10.4.21.173/dev-portal/web/sites/default/files/2021-09/DANA%20Login_0.png");
+}
+
+.path--user-pass .user-pass {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  padding: 2%;
+}
+
+.path--user-pass main {
+  margin-left: 45%;
+}
+
+.path--user-pass .page__tasks {
+  margin-left: 54%;
+}
+
+.form-control, .form-select, .custom-file label {
+  background-color : white;
+}
+
+.user-login-form .bg-lighter {
+  background-color : white !important;
+}
+
+fieldset .form-control, fieldset .form-select, details .form-control, details .form-select {
+  background-color : white;
+  border: 1px solid #ddd;
+}
+
+.is-horizontal .nav-tabs::before {
+  border-bottom : none;
+}
+
+.card.has-hover-shadow:focus, .card.has-hover-shadow {
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.3);
+}
+
+.path--view-apigee-api-catalog-page-1 main {
+  background-color: white!important;
+}
+
+.path--user-login .nav-tabs .nav-link {
+  border : none !important;
+}
+
+.path--user-pass .nav-tabs .nav-link {
+  border : none !important;
+}
+
+.path--user-login .nav-tabs {
+  border-left: 1px solid white;
+}
+
+.path--user-pass .nav-tabs {
+  border-left: 1px solid white;
+}
+
+.path--entity-team-members table th {
+    color: #108ee8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.path--entity-team-members .table-responsive > .table-bordered, .path--entity-team-members table.table-bordered thead th {
+  border: 1px solid #f0f0f0;
+}
+
+.path--contact-site-page {
+  background-image: url("http://10.4.21.173/dev-portal/web/sites/default/files/2021-09/DANA%20Login_0.png");
+}
+
+.path--contact-site-page main {
+  margin-left : 45%;
+}
+
+.path--contact-site-page form .form-control.form-textarea {
+    max-height: 130px;
+}
+
+/* Sticky Header */ 
+ 
+ #stickytypeheader {
+    height: 200px;
+    padding-top: 20px;
+}
+
+.contextual-region.apigee-entity.apigee-entity--view-mode-full.team.team--view-mode-full img{
+  width: 50%;
+}
+
+.contextual-region.apigee-entity.apigee-entity--view-mode-full.team.team--view-mode-full .field.field--hidden.image__field-media-image.quickedit-field {
+    float: left;
+    width: 20%;
+}
+
+label[for="edit-captcha-response"]{
+    visibility: hidden;
+    position: relative;
+}
+
+label[for="edit-captcha-response"]:after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'Calculate';
+}
+
+label[for="edit-captcha-response"]:before{
+    visibility: visible;
+    position: absolute;
+    font-weight: bold;
+    top: 0;
+    right:30px;
+    content:'*';
+    color:#dc3545;
+}
+
+#edit-access {
+  display:none;
+}
+
+.content-header {
+    overflow: hidden;
+    padding: 24px 0 0;
+    background-color: #009cde;
+    color: white;
+}
+
+.path--entity-team-canonical .team__field-organization-logo .image__field-media-image .img-fluid {
+    max-width: 100px;
+    height: auto;
+}
+
+/* User pages end  */
