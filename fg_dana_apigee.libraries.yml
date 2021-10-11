@@ -1,0 +1,9 @@
+style:
+  css:
+    theme:
+      css/fg_dana_apigee.style.css: {}
+  js:
+    js/fg_dana_apigee.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
